@@ -20,6 +20,7 @@ public class FormActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
 
+        
         button = findViewById(R.id.button);
         name = findViewById(R.id.name);
         email = findViewById(R.id.email);
